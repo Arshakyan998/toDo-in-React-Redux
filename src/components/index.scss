@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Pacifico&display=swap');
+
+.main{
+        text-align: center;
+
+ul{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        justify-content: space-between;
+
+
+        li{
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                margin: 5px;
+                input{
+                        width: 25px;
+                        height: 25px;
+                }
+                .noActive{
+                   text-decoration: line-through;     
+                }
+        }
+}
+.content{
+        font-family: 'Festive', cursive;
+        font-family: 'Pacifico', cursive;
+        font-size: 35px;
+}
+
+}
+
+.add_item{
+        width: 400px!important;
+        max-width: 400px!important;
+        margin: 0!important;
+        padding: 0!important;
+}
+.input-group{
+        margin-left: 35px;
+        text-align: center!important;
+}
+
+.empty{
+        margin: 15px;
+}
